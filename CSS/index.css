@@ -1,0 +1,112 @@
+/* body {
+  background-image: url(../assets/images/img_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 42rem;
+  font-style: italic;
+  width: 100%;
+} */
+body{
+  background-color: #fff4f4;
+}
+
+.custom-navbar {
+  background-color: #c0c0c0; /* Replace with your desired background color */
+  color: #ffffff; /* Replace with your desired font color */
+  padding: 19px;
+  height: 5rem;
+  position: fixed;
+  width: 100%;
+  top: 0; /* Add this property to fix the navbar at the top */
+  z-index: 999; /* Add a higher z-index to ensure it stays on top of other elements */
+  
+}
+
+  
+  .custom-navbar li:hover {
+    background-color: #bbce11; /* Replace with your desired hover background color */
+    color: #ffffff; /* Replace with your desired hover font color */
+    
+  }
+  .custom-navbar button{
+    background-color: #a1aa35;
+    color: rgb(0, 0, 0);
+  }
+
+.custom-navbar a{
+  font-size: larger;
+  font: bolder;
+  font-style: italic;
+}
+
+.first-header{
+  margin-top: 5rem;
+  /* background-image: url(../assets/images/jss-removebg-preview.png); */
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding: 1%;
+  /* width:min-content; */
+  border-radius: 1rem;
+}
+
+.head h3{
+  align-items: center;
+}
+
+.head-line h2{
+  color: #dff111;
+}
+
+.text-center-2{
+  background-color: #c0c0c0;
+  padding: 1rem
+
+}
+
+.box{
+  color: #000000;
+  text-align: center;
+}
+.text-center-1{
+  text-align: center;
+}
+.cor > img{
+object-fit: cover;
+object-position: center;
+width: 100%;
+height: 100%;
+filter: brightness(0.75);
+filter: blur(3px);
+}
+.cor{
+  height: 100vh;
+  
+}
+@media  screen and (max-width:748px){
+  .cor > img{
+    object-fit: cover;
+    /* object-position: center; */
+    width: 100%;
+    height: 100vh;
+    
+  
+    }
+
+}
+.cont{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+   height: 60rem;
+}
+
+.foot{
+  margin-top: 1rem;
+}
